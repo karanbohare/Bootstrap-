@@ -5,21 +5,21 @@ body {
 
 /* Override Bootstrap colors */
 :root {
-  --bs-primary: #470303;       /* blossom pink */
+  --bs-primary: #ef0404;       /* blossom pink */
   --bs-secondary: #4caf50;     /* leaf green */
   --bs-warning: #ffeb3b;       /* sunshine yellow */
 }
 
 /* Navbar tweak */
 .navbar {
-  background-color: var(--bs-primary) !important;
+  background-color: lightskyblue
 }
 .navbar .nav-link {
   color: #fff !important;
   font-weight: 500;
 }
 .navbar .nav-link:hover {
-  color: var(--bs-warning) !important;
+  color: lightblue;
 }
 
 /* Buttons */
@@ -28,25 +28,25 @@ body {
   border-color: var(--bs-primary);
 }
 .btn-primary:hover {
-  background-color: #c2185b;
+  background-color: #ba869b;
   border-color: #c2185b;
 }
 
 /* Cards */
 .card {
   border: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(222, 6, 6, 0.1);
   border-radius: 10px;
 }
 
 /* Footer */
-footer {
+footer {  
   background-color: var(--bs-secondary);
 }
 
 .carousel-caption h5,
 .carousel-caption p {
-  background-color: rgba(233, 30, 99, 0.6); /* translucent pink */
+  background-color: rgba(195, 147, 163, 0.6); /* translucent pink */
   padding: 10px;
   border-radius: 8px;
 }
@@ -79,7 +79,7 @@ form {
   background-color: #fff;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(222, 168, 176, 0.53);
 }
 
 .modal-content {
@@ -95,7 +95,7 @@ form {
 }
 
 .accordion-button:focus {
-  box-shadow: 0 0 0 0.25rem rgba(233, 30, 99, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(216, 4, 82, 0.25);
 }
 
 .nav-tabs .nav-link.active {
@@ -110,4 +110,50 @@ form {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  color: #df10109d;
+  font-weight: bold;
+}
+
+.lead {
+  color: hsl(250, 73%, 47%);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+} 
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-danger {
+  border-radius: 25px;
+}
+
+.card-header h4 {
+  letter-spacing: 1px;
 }
