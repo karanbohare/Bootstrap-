@@ -1,16 +1,14 @@
-/* ===== Transflower Theme ===== */
+
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Override Bootstrap colors */
 :root {
-  --bs-primary: #ef0404;       /* blossom pink */
-  --bs-secondary: #4caf50;     /* leaf green */
-  --bs-warning: #ffeb3b;       /* sunshine yellow */
+  --bs-primary: #ef0404;       
+  --bs-secondary: #4caf50;     
+  --bs-warning: #ffeb3b;       
 }
 
-/* Navbar tweak */
 .navbar {
   background-color: lightskyblue
 }
@@ -22,7 +20,7 @@ body {
   color: lightblue;
 }
 
-/* Buttons */
+
 .btn-primary {
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
@@ -32,21 +30,21 @@ body {
   border-color: #c2185b;
 }
 
-/* Cards */
+
 .card {
   border: none;
   box-shadow: 0 4px 8px rgba(222, 6, 6, 0.1);
   border-radius: 10px;
 }
 
-/* Footer */
+
 footer {  
   background-color: var(--bs-secondary);
 }
 
 .carousel-caption h5,
 .carousel-caption p {
-  background-color: rgba(195, 147, 163, 0.6); /* translucent pink */
+  background-color: rgba(195, 147, 163, 0.6); 
   padding: 10px;
   border-radius: 8px;
 }
