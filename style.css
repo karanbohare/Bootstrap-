@@ -1,0 +1,157 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bs-primary: #ef0404;       
+  --bs-secondary: #4caf50;     
+  --bs-warning: #ffeb3b;       
+}
+
+.navbar {
+  background-color: lightskyblue
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar .nav-link:hover {
+  color: lightblue;
+}
+
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.btn-primary:hover {
+  background-color: #ba869b;
+  border-color: #c2185b;
+}
+
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(222, 6, 6, 0.1);
+  border-radius: 10px;
+}
+
+
+footer {  
+  background-color: var(--bs-secondary);
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  background-color: rgba(195, 147, 163, 0.6); 
+  padding: 10px;
+  border-radius: 8px;
+}
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+.btn-outline-primary:hover {
+  background-color: var(--bs-primary);
+  color: #fff;
+  border-color: var(--bs-primary);
+}
+
+
+.Product-img{
+    width: 100%;
+    height: 200px;
+}
+
+.html {
+  scroll-behavior: smooth;
+} 
+
+.nav-link.active {
+  color: var(--bs-warning) !important;
+  font-weight: 600;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(222, 168, 176, 0.53);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+.navbar-brand i {
+  animation: bloom 2s ease-in-out infinite alternate;
+}
+
+@keyframes bloom {
+  0% { transform: scale(1); color: #fff; }
+  100% { transform: scale(1.2); color: #ffeb3b; }
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(216, 4, 82, 0.25);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #e91e63;
+  color: #fff;
+}
+
+.tab-content {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  color: #df10109d;
+  font-weight: bold;
+}
+
+.lead {
+  color: hsl(250, 73%, 47%);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+} 
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.btn-danger {
+  border-radius: 25px;
+}
+
+.card-header h4 {
+  letter-spacing: 1px;
+}
